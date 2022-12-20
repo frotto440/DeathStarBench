@@ -2,6 +2,7 @@ name: Push SocialNetwork
 concurrency: ci-socialNetwork
 
 on:
+  workflow_dispatch:
   push: 
     branches: [ master ]
     paths: 
